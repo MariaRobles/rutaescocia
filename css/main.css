@@ -357,7 +357,7 @@ p.slide2texto {
 .formulario {
 	width: 70%;
 	margin: 0 auto;
-	padding-top: 5%;
+	padding-top:20px;
 }
   
 .formulario .enviar{
