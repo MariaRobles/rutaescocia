@@ -1,17 +1,20 @@
-<?php include("getdatoscarrito.php");?>
+<?php 
+
+include("../ddbb/datoscarrito.php");?>
 
 
 <!DOCTYPE html>
 <html>
 	<?php include("../start.php");?>
 	<?php include("head.php");?>
+
 <body class="fondo">
 
 	<div class="container-fluid row container-carrito">
 		<h1>Ya estás un pasito más cerca de Escocia...</h1>
+		
 		<div class="carrito col-xs-10 col-sm-10 col-md-10 col-lg-8">
-
-			<form id="compra" method="POST" action="imprimir.php" autocomplete="off">
+			<form id="compra" method="POST" action="../ddbb/datosventa.php" autocomplete="off">
 				
 				<h3 id="nombre-ruta-carrito"><?php echo $row_precio['nombre'] ?></h3>
 				<!--//////////////////////estos campos están hidden para recoger datos /////////-->
@@ -80,6 +83,7 @@
 	
 
 <?php include("footer.php");?>
+<script type="text/javascript" src="<?php echo $root?>js/stripe.js"></script>
 
   		
 </body>

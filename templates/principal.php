@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html>
+<link rel="icon" href="img/favicon.png">
 
 <body>
     <div class="fijo">

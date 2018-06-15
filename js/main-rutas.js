@@ -43,7 +43,7 @@ $(document).ready(function(){
 		};
 	$.ajax({
 		  method: "POST",
-		  url: "getdatosrutas.php",
+		  url: "../ddbb/datosrutas.php",
 		  data: { numeroid : x }
 		}).done(procesarResultado);
 
@@ -51,7 +51,7 @@ $(document).ready(function(){
     	x++;
 	    $.ajax({
 		  method: "POST",
-		  url: "getdatosrutas.php",
+		  url: "../ddbb/datosrutas.php",
 		  data: { numeroid : x }
 		}).done(procesarResultado)
   	});
@@ -61,7 +61,7 @@ $(document).ready(function(){
     	if(x == 0)x++ ;
 	    $.ajax({
 		  method: "POST",
-		  url: "getdatosrutas.php",
+		  url: "../ddbb/datosrutas.php",
 		  data: { numeroid : x }
 		}).done(procesarResultado)
  

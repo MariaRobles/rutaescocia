@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
-<?php include("../start.php");?>
-<?php include("head.php");?>
+
+<?php 
+include("../start.php");
+include("head.php");
+?>
 	
 	
-	
-  <body>
+<body>
 
 	<div class="container-fluid contenedor row">
-
 
 			<div class="col-xs-12 col-sm-12 col-lg-7 left">
 				<div class="top-menus row d-flex justify-content-between">
@@ -79,12 +80,10 @@
 				</div>
 			</div>
 
-			
-
 	</div> <!--contenedor-->
 
 <?php include("footer.php");?>
    
- </body>
+</body>
 </html>
 
