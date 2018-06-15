@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <?php include("../start.php");?>
@@ -8,6 +9,8 @@
     <p>¡Su formulario se ha enviado correctamente!</p>
     <a id='volver' href='<?php echo $root ?>index.php'>Volver</a>
 </div>
+
+
 
 </body>
 </html>

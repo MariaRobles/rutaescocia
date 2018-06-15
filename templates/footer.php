@@ -6,6 +6,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <script src="<?php echo $root?>js/bootstrap.min.js"></script>
     <script src="<?php echo $root?>js/popper.min.js"></script>
+    <script type="text/javascript" src="<?php echo $root?>js/stripe.js"></script>
     <script src="<?php echo $root?>js/jquery.validate.min.js"></script>
     <script type="text/javascript" src="<?php echo $root?>js/main.js"></script>
     <script type="text/javascript" src="<?php echo $root?>js/main2.js"></script>

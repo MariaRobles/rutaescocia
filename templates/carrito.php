@@ -8,13 +8,13 @@
 <body class="fondo">
 
 	<div class="container-fluid row container-carrito">
-		<h1>Ya estas un pasito más cerca de Escocia!</h1>
+		<h1>Ya estás un pasito más cerca de Escocia...</h1>
 		<div class="carrito col-xs-10 col-sm-10 col-md-10 col-lg-8">
 
 			<form id="compra" method="POST" action="imprimir.php" autocomplete="off">
 				
 				<h3 id="nombre-ruta-carrito"><?php echo $row_precio['nombre'] ?></h3>
-				<!--//////////////////////estos campos están hidden para recoger datos/////////-->
+				<!--//////////////////////estos campos están hidden para recoger datos /////////-->
 				<div class="form-group" >
 						<input type="hidden"  autocomplete="off" class="form-control" id="nombreruta" name="nombreruta" value="<?php echo $row_precio['nombre'] ?>">
 				</div>
@@ -51,29 +51,33 @@
 				</div>
 					
 				<button type="button" id="calculo" class="btn btn-primary">Calcular precio</button>
-				<button type="submit" class="btn btn-primary">Enviar</button>
+			
+				<form action="imprimir.php" method="POST">
+					<script
+						src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+						data-key="pk_test_Q2xQmnov8GZBzooOe935pDIy"
+						data-name="Ruta Escocia"
+						data-locale="auto"
+						data-currency="eur">
+					</script>
+				</form>
 					
 			</form>
 		</div>
 	
-		
+		<!--aside -->
 		<div class="col-xs-2 col-sm-2 col-md-2 col-lg-4 preciocarrito">
-					
 			<p>Precio por persona:</p>
-			<div>
-				<?php $preciofinal=$row_precio['precio'];?>
-			</div>
-			<div id="preciopp">
-				<?php echo ($preciofinal);?> 
-			</div>
+			<div><?php $preciofinal=$row_precio['precio'];?></div>
+			<div id="preciopp"><?php echo ($preciofinal);?></div>
 			<p class="euro">€</p>
 			<div id ="preciofinal"></div>
-
-
-		
 		</div>
-		
 	</div>
+
+
+
+	
 
 <?php include("footer.php");?>
 

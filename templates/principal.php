@@ -145,6 +145,7 @@
                                 </div>
                                 <textarea class="form-control" id="textarea" rows="10" placeholder="Tu mensaje aquí:"></textarea>
                                 <button class="enviar" type="submit" class="btn btn-primary" data-toggle="modal" data-target="#modal">Enviar</button>
+                    
                             </form>
                         </div>
                     </div>

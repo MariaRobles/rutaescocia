@@ -73,11 +73,11 @@ $(document).ready(function(){
  //////////////////MENU FIJO TOGGLE/////////
 
     $('.fijo').click(function(){
-        $('.menu').toggle(200, 'linear')
+        $('.menu').toggle(400)
     });
 
     $('.ver-rutas').click(function(){
-            $('.menu').toggle(200, 'linear')
+            $('.menu').toggle(400)
     });
 
 

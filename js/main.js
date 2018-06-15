@@ -27,7 +27,6 @@ $(document).ready(function(){
 	var x = 1;
 	var procesarResultado = function(respuesta)
 		{
-
 			var datos = JSON.parse(respuesta);
 			$("#titulo").text(datos['rutas']["nombre"]);
 			$("#descripcion").text(datos['rutas']["descripcion"]);
@@ -67,6 +66,8 @@ $(document).ready(function(){
 		}).done(procesarResultado)
  
 	});
+
+	/******************calculo precio final****************/
 
 	$("#calculo").click(function (){
 		var numeropersonas = ($("#numeropersonas").val());
