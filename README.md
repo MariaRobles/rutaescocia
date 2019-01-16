@@ -10,6 +10,7 @@ Para el front-end he utilizado html5, css3, jquery y javascript, para el back-en
 1. Creamos una base de datos con el nombre rutaescocia e importamos rutaescocia.sql.
 2. Arracar el servidor apache y mySQL.
 3. Abrir navegador con la ruta localhost/rutaescocia
+4. Ve a "Rutas de 1 día" porque es la única que tiene datos dentro.
 
 ENGLISH
 
@@ -22,5 +23,6 @@ Steps:
 1. Create a database call rutaescocia and import rutaescocia.sql
 2. Start the local server apache and mysql (I use XAMP or WAMP)
 3. Open in your window localhost/rutaescocia
+4. Go to "Rutas de 1 día" it is the only one that has data inside.
 
 
