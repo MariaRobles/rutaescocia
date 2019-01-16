@@ -23,6 +23,6 @@ Steps:
 1. Create a database call rutaescocia and import rutaescocia.sql
 2. Start the local server apache and mysql (I use XAMP or WAMP)
 3. Open in your window localhost/rutaescocia
-4. Go to "Rutas de 1 día" it is the only one that has data inside.
+4. Use a mouse to scroll down and see full potencial of the web. Go to "Rutas de 1 día" it is the only one that has data inside.
 
 
