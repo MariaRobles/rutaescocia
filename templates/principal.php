@@ -21,7 +21,6 @@
                 <li><a href="#">Rutas 4 días</a></li>
                 <li><a href="#">Rutas 5 días</a></li>
                 <li><a href="#">Personalizadas</a></li>
-                <li><a href="#">Contacto</a></li>
             </ul>
         </div>
     </div> 
