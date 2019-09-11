@@ -68,7 +68,10 @@ body {
   
 .fijo .menu{
 	padding:20%;
-	display: none;
+  display: none;
+  width: 33vw;
+  background: black;
+  opacity: 0.8;
 }
   
 .fijo .menu ul {
@@ -78,7 +81,7 @@ body {
 .fijo .menu ul li a{
 	color: white;
 	text-decoration: none;
-	font-size: 50px;
+	font-size: 40px;
 	transition: 1s;
   }
   
